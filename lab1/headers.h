@@ -10,11 +10,11 @@ class Student {
 	int age;
 	float average;
 public:
-	Student();
+	Student(int s_age = 15, float s_average = 4.5);
 	~Student();
 	void print();
 	void change_surname(char*);
 	void change_age(int);
 	void change_average(float);
-	void sum(Student);
+	Student operator + (Student&);
 };

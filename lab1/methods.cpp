@@ -1,8 +1,8 @@
 #include "headers.h"
 
-Student::Student() {
-	age = 18;
-	average = 4.65;
+Student::Student(int s_age, float s_average) {
+	age = s_age;
+	average = s_average;
 	surname = new char[1];
 	surname[0] = '\0';
 }
@@ -30,6 +30,6 @@ void Student::change_average(float n) {
 	average = n;
 }
 
-void Student::sum(Student a) {
-	cout << a.surname << "+" << surname << ":\n"<< "age:" << a.age + age << "\naverage:" << a.average + average << endl;
+Student Student::operator + (Student& student) {
+	return Student{ age + student.age, average + student.average };
 }

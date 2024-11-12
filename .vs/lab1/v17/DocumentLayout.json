@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "lab1\\main.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\lab1\\main.cpp",
               "RelativeToolTip": "lab1\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-09T07:00:12.091Z",
               "EditorCaption": ""
@@ -45,9 +45,10 @@
               "RelativeDocumentMoniker": "lab1\\methods.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\lab1\\methods.cpp",
               "RelativeToolTip": "lab1\\methods.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T07:00:07.028Z"
+              "WhenOpened": "2024-11-09T07:00:07.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,9 +58,10 @@
               "RelativeDocumentMoniker": "lab1\\headers.h",
               "ToolTip": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\lab1\\headers.h",
               "RelativeToolTip": "lab1\\headers.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T07:00:14.61Z"
+              "WhenOpened": "2024-11-09T07:00:14.61Z",
+              "EditorCaption": ""
             }
           ]
         }
