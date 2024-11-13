@@ -2,7 +2,9 @@
 
 void main() {
 	Student first;
-	Student second;
+	first.print();
+	Student second{10, 4};
+	second.print();
 	char sString[] = "summ";
 	char *s = sString;
 	char *name = new char[20];
@@ -35,5 +37,5 @@ void main() {
 	cout << "copy class" << endl;
 	fourth.print();
 	delete[] name;
-	delete[] name2;
+	delete[] name2;	
 }	

@@ -3,8 +3,9 @@
 Student::Student(int s_age, float s_average) {
 	age = s_age;
 	average = s_average;
-	surname = new char[1];
-	surname[0] = '\0';
+	//surname = new char[1];
+	//surname[0] = '\0';
+	surname = NULL;
 }
 
 Student::Student(){
@@ -27,7 +28,12 @@ Student::~Student() {
 }
 
 void Student::print(){
-	cout << surname << " " << age << " " << average<<endl;
+	if (surname != NULL) {
+		cout << surname << " " << age << " " << average << endl;
+	}
+	else {
+		cout << age << " " << average << " " << endl;
+	}
 }
 
 void Student::change_surname(char* n) {
