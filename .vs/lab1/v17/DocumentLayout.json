@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\1lab\\lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1lab\\lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\1lab\\lab1\\headers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1lab\\lab1\\headers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\1lab\\lab1\\methods.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1lab\\lab1\\methods.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\1lab\\lab1\\main.cpp",
+              "RelativeDocumentMoniker": "1lab\\lab1\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\1lab\\lab1\\main.cpp",
+              "RelativeToolTip": "1lab\\lab1\\main.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-13T05:30:07.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "methods.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\1lab\\lab1\\methods.cpp",
+              "RelativeDocumentMoniker": "1lab\\lab1\\methods.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\1lab\\lab1\\methods.cpp",
+              "RelativeToolTip": "1lab\\lab1\\methods.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-13T05:30:11.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "headers.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\1lab\\lab1\\headers.h",
+              "RelativeDocumentMoniker": "1lab\\lab1\\headers.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\prog\\c\u002B\u002B\\lab1\\1lab\\lab1\\headers.h",
+              "RelativeToolTip": "1lab\\lab1\\headers.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-13T05:30:09.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

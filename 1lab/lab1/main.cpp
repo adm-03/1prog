@@ -31,6 +31,9 @@ void main() {
 	third.change_surname(s);
 	third.print();
 
+	Student fourth(first);
+	cout << "copy class" << endl;
+	fourth.print();
 	delete[] name;
 	delete[] name2;
 }	

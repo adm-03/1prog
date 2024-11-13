@@ -7,6 +7,21 @@ Student::Student(int s_age, float s_average) {
 	surname[0] = '\0';
 }
 
+Student::Student(){
+	age = 17;
+	average = 4.5;
+	surname = new char[1];
+	surname[0] = '\0';
+}
+
+Student::Student(const Student& s) {
+	this->age = s.age;
+	this->average = s.average;
+	this->surname = new char[strlen(s.surname) + 1];
+	strcpy(this->surname, s.surname);
+
+}
+
 Student::~Student() {
 	delete[] surname;
 }

@@ -10,7 +10,9 @@ class Student {
 	int age;
 	float average;
 public:
-	Student(int s_age = 15, float s_average = 4.5);
+	Student(int, float);
+	Student();
+	Student(const Student&);
 	~Student();
 	void print();
 	void change_surname(char*);
