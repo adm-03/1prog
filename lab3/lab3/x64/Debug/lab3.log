@@ -1,0 +1,6 @@
+﻿  headers.h
+  main.cpp
+C:\Users\user\Desktop\prog\c++\lab1\lab3\main.cpp(3,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  methods.cpp
+  Создание кода...
+  lab3.vcxproj -> C:\Users\user\Desktop\prog\c++\lab1\lab3\x64\Debug\lab3.exe
