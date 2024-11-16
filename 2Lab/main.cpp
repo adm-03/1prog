@@ -31,7 +31,7 @@ void main() {
 
 	cout << "+" << endl;
 	Student third = second + first;
-	third.change_surname(s);
+	//third.change_surname(s);
 	third.print();
 
 	cout << "-" << endl;
