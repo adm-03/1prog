@@ -84,3 +84,38 @@ Student Student::operator ++ (int) {
 Student::operator int() {
 	return int(this->average);
 }
+
+ostream& operator << (ostream& ofs, const Student& c) {
+	ofs.write((const char*)&c.age, sizeof(int));
+	ofs.write((const char*)&c.average, sizeof(float));
+	size_t n = strlen(c.surname) + 1;
+	ofs.write((const char*)&n, sizeof(size_t));
+	ofs.write((const char*)c.surname, sizeof(char) * n);
+	return ofs;
+}
+istream& operator >> (istream& ofs, Student& c) {
+	size_t n;
+	
+	ofs.read((char*)&c.age, sizeof(int));
+	ofs.read((char*)&c.average, sizeof(float));
+	ofs.read((char*)&n, sizeof(size_t));
+	delete[] c.surname;
+	c.surname = new char[n];
+	ofs.read(c.surname, sizeof(char) * n);
+
+	/*c.change_age(a);
+	c.change_average(b);*/
+
+
+	return ofs;
+}
+
+void Student::output(ostream& os) {
+	if (surname != NULL) {
+		os << surname << " " << age << " " << average << endl;
+	}
+	else {
+		os << age << " " << average << " " << endl;
+	}
+}
+
