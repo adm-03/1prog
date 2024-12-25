@@ -29,10 +29,10 @@ Student::~Student() {
 
 void Student::print() {
 	if (surname != NULL) {
-		cout << surname << " " << age << " " << average << endl;
+		cout << "Student: " << surname << " " << age << " " << average << endl;
 	}
 	else {
-		cout << age << " " << average << " " << endl;
+		cout << "Student: " << age << " " << average << " " << endl;
 	}
 }
 
@@ -126,23 +126,23 @@ Ex_student::Ex_student(int ex) {
 
 void Ex_student::print() {
 	if (surname != NULL) {
-		cout << surname << " " << age << " " << average << " " << ex_grades << endl;
+		cout << "Ex_student: " << surname << " " << age << " " << average << " " << ex_grades << endl;
 	}
 	else {
-		cout << age << " " << average << " " << ex_grades << endl;
+		cout << "Ex_student: " << age << " " << average << " " << ex_grades << endl;
 	}
 }
 
 
-Debtor::Debtor(int deb) {
+Debtor::Debtor(int deb) : Student(1, 1.1) {
 	debts = deb;
 }
 
 void Debtor::print() {
 	if (surname != NULL) {
-		cout << surname << " " << age << " " << average << " " << debts << endl;
+		cout << "Debtor: " << surname << " " << age << " " << average << " " << debts << endl;
 	}
 	else {
-		cout << age << " " << average << " " << debts << endl;
+		cout << "Debtor: " << age << " " << average << " " << debts << endl;
 	}
 }

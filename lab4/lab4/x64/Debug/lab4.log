@@ -1,3 +1,5 @@
 ﻿  main.cpp
 C:\Users\mainuser\Documents\prog\lab4\main.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  methods.cpp
+  Создание кода...
   lab4.vcxproj -> C:\Users\mainuser\Documents\prog\lab4\x64\Debug\lab4.exe

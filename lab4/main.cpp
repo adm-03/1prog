@@ -64,9 +64,16 @@ void main() {
 
 	Ex_student b(a);
 	b.print();
+	
+	fourth.print();
+	a.print();
 
 	Student* r;
-	r = new Debtor(1);
-	r->change_surname((char*)"oleg");
+	r = &fourth;
+	/*r = new Debtor(1);
+	r->change_surname((char*)"oleg");*/
+	r->print();
+
+	r = &a;
 	r->print();
 }

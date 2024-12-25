@@ -17,7 +17,7 @@ public:
 	Student(const Student&);
 	~Student();
 
-	void print();
+	virtual void print();
 	void change_surname(char*);
 	void change_age(int);
 	void change_average(float);
@@ -46,5 +46,5 @@ class Debtor : public Student {
 	int debts;
 public:
 	Debtor(int deb);
-	virtual void print();
+	void print();
 };
